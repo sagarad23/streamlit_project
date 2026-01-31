@@ -70,7 +70,7 @@ DO NOT add extra text.
 """
 
     result = subprocess.run(
-        ["ollama", "run", "phi3:mini"],
+        ["ollama", "run", "gpt-oss:120b-cloud"],
         input=prompt,
         text=True,
         capture_output=True,

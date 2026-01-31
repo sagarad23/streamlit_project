@@ -299,7 +299,7 @@ Keep it concise.
 """
 
                     recs = subprocess.run(
-                        ["ollama", "run", "phi3:mini"],
+                        ["ollama", "run", "gpt-oss:120b-cloud"],
                         input=rec_prompt,
                         text=True,
                         capture_output=True
