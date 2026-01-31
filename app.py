@@ -250,7 +250,7 @@ with tab4:
         )
 
         if st.button("🧠 Generate MCQs"):
-            with st.spinner("Generating questions using phi3:mini..."):
+            with st.spinner("Generating questions using gpt-oss..."):
                 mcq_data = generate_mcqs(selected_skill)
                 st.session_state["mcqs"] = mcq_data
                 st.session_state["answers"] = {}
