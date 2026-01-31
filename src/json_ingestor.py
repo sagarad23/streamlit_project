@@ -40,7 +40,7 @@ for job in jobs:
         "skills_required": skills,
         "platform": "Linkedin",
         "url": job.get("jobUrl"),
-        "experiance_level": experianceLevel
+        "experience_level": "experience_required"
     }
 
     try:

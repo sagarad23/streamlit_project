@@ -49,7 +49,7 @@ class MerojobScraper:
                     "skills_required": skills,
                     "platform": "Merojob",
                     "url": f"https://merojob.com{job.get('absolute_url','')}",
-                    "experiance_level": experiance required
+                    "experience_level": "experience_required"
                 })
 
                 if len(jobs) >= self.max_jobs:
